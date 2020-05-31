@@ -31,6 +31,7 @@ body{
     display:flex;
     align-items:center;
     cursor: pointer;
+    flex-direction: column;
 
 }
 
@@ -41,4 +42,14 @@ body{
 }
 .degree-section h2{
     font-size: 40px;
+}
+
+
+.temp-line h2,span{
+    float: left;
+}
+
+.time-line{
+    display: flex;
+    flex-direction: row;
 }
